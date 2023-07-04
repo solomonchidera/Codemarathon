@@ -1,0 +1,2 @@
+name = "SOLOMON "
+print(f"{name}JOINED THE 100-DAYS OF CODING CHALLENGE")
