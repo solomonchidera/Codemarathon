@@ -1,4 +1,4 @@
-#include "100D.h"
+#include "hnd.h"
 
 /**
  * main - Ultimate function
@@ -8,8 +8,16 @@
 
 int main(void)
 {
-	char name[] = "SOLOMON CHIDERA";
-	printf("MY NAME IS %s AND AM STARTING MY 100-DAYS OF CODING NON-STOP");
+	char name[20] = {"SOLOMON CHIDERA"};
+	
+	/** was trying to print the content of variable name with a for loop;
+	for (int i = 0; i < name[i]; i++)
+	{
+
+		printf("MY NAME IS %s AND AM STARTING MY 100-DAYS OF CODING NON-STOP\n", name[i]);
+	}*/
+
+	printf("MY NAME IS %s AND AM STARTED MY 100-DAYS OF CODING NON-STOP\n", name);
 
 	return(0);
 }
