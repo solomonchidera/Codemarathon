@@ -1,5 +1,6 @@
+import level1
 import random
-import leve1
+
 
 def play_level_2():
     generated_number = random.randint(1, 15)
