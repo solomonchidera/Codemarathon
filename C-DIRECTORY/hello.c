@@ -17,7 +17,7 @@ int main(void)
 		printf("MY NAME IS %s AND AM STARTING MY 100-DAYS OF CODING NON-STOP\n", name[i]);
 	}*/
 
-	printf("MY NAME IS %s AND AM STARTED MY 100-DAYS OF CODING NON-STOP\n", name);
+	printf("MY NAME IS %s AND AM STARTiNG MY 100-DAYS OF CODING NON-STOP\n", name);
 
 	return(0);
 }
