@@ -2,7 +2,6 @@
 
 int main(void)
 {
-
 	int c;
 
 	my_lastdigit(345);
