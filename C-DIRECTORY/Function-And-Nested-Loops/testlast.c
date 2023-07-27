@@ -1,4 +1,5 @@
 #include "main.h"
+#include "chi.h"
 
 int main(void)
 {
