@@ -1,3 +1,7 @@
+/*
+ * Name of file: callarea.c
+ * Author: SolomonChidera
+ */
 #include "main.h"
 int areaof(int len, int width)
 {
