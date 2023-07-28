@@ -14,5 +14,9 @@ int main(void)
 	int rec_area;
 	rec_area = areaof(a, b);
 	printf("%d\n", rec_area);
+
+	int s = 10, p = 5;
+	rec_area = areaof(s, p);
+	printf("%d\n", rec_area);
 	return(0);
 }
