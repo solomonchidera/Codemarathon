@@ -1,6 +1,6 @@
 #include "main.h"
 
-void hour-min(void)
+void hour_min(void)
 {
 	int a = 0, b;
 	while (a < 24)
@@ -20,6 +20,6 @@ void hour-min(void)
 
 int main(void)
 {
-	hour-min();
+	hour_min();
 	return(0);
 }
