@@ -13,8 +13,9 @@ void hour_min(void)
 			_putchar(':');
 			_putchar((b / 10) + '0');
 			_putchar((b % 10) + '0');
+			b++;
 		}
-
+		a++;
 	}
 }
 
