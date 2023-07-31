@@ -2,20 +2,23 @@
 
 void times_table(void)
 {
-	int zero = 0, nine;
-	
-	for (; zero <= 10; zero++)
-	{
-		nine = 0;
+	int a,b, d;
+	int c = 9;
 
-		for (; nine <= 10; nine++)
+	
+	for (a = 0; a < c; a++)
+	{
+		for (b = 0; b < c; b++)
 		{
-			printf("%d, ", nine);
+			d = a * b;
+			_putchar(d + '0');
+			_putchar(',');
+			_putchar(' ');
 		}
 		_putchar(10);
-
 	}
 }
+
 
 int main(void)
 {
