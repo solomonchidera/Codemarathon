@@ -3,12 +3,11 @@
 void times_table(void)
 {
 	int a,b, d;
-	int c = 9;
 
 	
-	for (a = 0; a < c; a++)
+	for (a = 0; a <= c; a++)
 	{
-		for (b = 0; b < c; b++)
+		for (b = 0; b <= c; b++)
 		{
 			d = a * b;
 			if (d < 10)
@@ -27,6 +26,7 @@ void times_table(void)
 
 int main(void)
 {
+	int c = 9;
 	times_table();
 	return(0);
 }
