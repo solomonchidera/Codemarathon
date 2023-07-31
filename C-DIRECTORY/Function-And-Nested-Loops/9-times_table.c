@@ -11,9 +11,7 @@ void times_table(void)
 		for (b = 0; b < c; b++)
 		{
 			d = a * b;
-			_putchar(d + 48);
-			_putchar(',');
-			_putchar(' ');
+			printf("%02d, ", d);
 		}
 		_putchar(10);
 	}
