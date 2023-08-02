@@ -12,11 +12,9 @@ int fibonacci(int i)
 int main(void)
 {
 	int i = 0;
-	int result;
 	for (; i < 10; i++)
 	{
-		result = fibonacci(i);
-		printf("%d\n", result[i]);
+		printf("%d\n", fibonacci(i));
 	}
 	return (0);
 }
