@@ -7,6 +7,6 @@ int len(char *s)
 	while (s[rr] != '\0')
 	{
 		rr++;
-		return (rr);
 	}
+	return (rr);
 }
