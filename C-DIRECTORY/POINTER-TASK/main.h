@@ -12,4 +12,4 @@ void print_array(int *a, int n);
 char *_strcpy(char *dest, char *src);
 nt _atoi(char *s);
 
-#endif
+#endif /*MAIN_H*/
