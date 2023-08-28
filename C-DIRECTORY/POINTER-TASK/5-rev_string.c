@@ -2,12 +2,18 @@
 
 void rev_string(char *s)
 {
-	int lent, i;
-	lent = len(s);
-	
-	for (i = lent - 1; i >= 0; i--)
-	{
+	int length, i;
+	char ch;
 
+	while (s[length] != '\0')
+	{
+		length++;
 	}
 
+	for (i = 0; i < length / 2; i++)
+	{
+		s[i] = ch;
+		s[i] = s[length -i -1];
+		s[length - i -1] = ch;
+	}
 }
